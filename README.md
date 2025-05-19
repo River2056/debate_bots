@@ -4,7 +4,7 @@
 you might need to create a virtual environment, and install necessary dependancies
 - `python -m venv dev_ai`
 
-activate the virtual environment
+activate the virtual environment and install dependancies
 - `pip install -r requirements.txt`
 
 
