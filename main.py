@@ -1,4 +1,3 @@
-from chatbots import ChatBot
 from config import bots
 
 
@@ -21,7 +20,7 @@ def main():
         if rounds == total_rounds:
             break
 
-    filename = f"./{topic[0:20].replace(" ", "_")}.txt"
+    filename = f"./{topic[0:30].replace(" ", "_")}.txt"
     with open(filename, "wt", encoding="utf8") as output:
         for msg in all_msgs:
             print(msg)
